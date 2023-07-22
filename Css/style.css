@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&display=swap');
+/* fonts {
+   font-family: 'Abril Fatface', cursive;
+font-family: 'Montserrat', sans-serif;
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #ebe3cd;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+/* Nav Section Start */
+
+.nav-section {
+    margin: 60px 30px 60px 30px;
+    display: flex;
+    background-color: #12202f;
+    border-radius: 50px;
+    justify-content: space-between;
+}
+
+.logo-div h2 {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    color: white;
+    margin: 15px 0px 0px 45px;
+}
+
+.menubar {
+    margin: auto;
+
+}
+
+.menubar ul {
+    display: flex;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.menubar ul li a {
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.signup ul {
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 60px;
+    text-decoration: none;
+    list-style: none;
+    color: #6bb99c;
+}
+/* Nav Section End */
+
+/* Upper Booking Sec Start */
+
+
+.booking-Sec{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Text h1 {
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 500;
+    font-size: 50px;
+    margin: 0px 40px;
+    word-spacing: 5px;
+}
+
+.Text h3 {
+    font-size: 20px;
+    margin: 10px 40px;
+    word-spacing: 5px;
+}
+
+.Text p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin: 10px 40px;
+    /* width: 1px; */
+}
+.btn{
+    margin: 0px 40px;
+}
+
+.btn-1 button{
+    margin: 30px 5px;
+    width: 150px;
+    height: 50px;
+    display: inline;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: larger;
+    border-style: none;
+    background-color: #ebe3cd;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn-1 button:hover{
+    background-color: #f8763f;
+    color: white;
+    transition: 1s;
+}
+
+.bg img {
+    width: 900px;
+    height: 500px;
+    margin: -60px 0px;
+}
+
+.form-sec{
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+    margin: 90px 40px;
+}
+
+.formDiv{
+    width: 100%;
+    height: 110px;
+    background-color: white;
+    border-radius: 20px;
+}
+.formDiv div{
+    margin: 10px;
+}
+
+.formDiv form{
+    display: flex;
+    justify-content: flex-start;
+    margin: 20px 95px;
+   
+}
+
+
+.formDiv form input{ 
+    margin: 10px 5px;
+    background-color: #ebe3cd;
+    border-radius: 15px;
+    width: 200px;
+    height: 50px;
+    border-style: solid;
+    text-align: center;
+}
+
+.btn-2 button{
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: larger;
+    background-color: #6bb99c;
+    color: white;
+}
+
+.btn-2 button:hover{
+    background-color: #12202f;
+    transition: 1s;
+}
+
+
+/* Upper Booking Sec End */
+
+/* Categiories Section Start */
+.categoriestext{
+    text-align: center;
+}
+
+.categoriestext h1{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+
+.categoriestext h3{
+    color: #eaa73b;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.container div{
+    background-color: white;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+
+.container img{
+    margin-top: 20px;
+}
+.container p{
+    font-family: 'Montserrat', sans-serif;
+}
+.container h2{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 300;
+}
+.container h2,
+.container p{
+
+    margin-top: 20px;
+    text-align: center;
+}
+/* Categiories Section End */
+
+/* Second Back Ground Section Start */
+.container-2{
+    background-image: url(/images/bg-2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 70px;
+    height: 100vh;
+    
+}
+
+.container-2 h3{
+    color: #6bb99c;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container-2 h1{
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 300;
+    font-size: 50px;
+}
+.container-2 .btn-2{
+    position: absolute;
+    margin-left: 540px;
+    height: 40px;
+    border-spacing: 20px;
+}
+/* Second Back Ground Section End */
+
+/* Story section Start */
+.story,
+.story-2{
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-between;
+}
+.story .text {
+    width: 350px;
+    margin: 175px 120px;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+}
+.story h3,
+.story-2 h3{
+    color:#eaa73b;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.story h1,
+.story-2 h1{
+    word-spacing: 2px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Abril Fatface', cursive;
+}
+.story p,
+.story-2 p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+
+.story-2 .text{
+    margin: 75px 75px;
+}
+
+/* Story section End */
+
+/* Chef Section Start */
+.container-3{
+    display: flex;
+    margin: 100px 70px;
+    background-color: #faf8ef;
+    height: 550px;
+    width: 90%;
+    border-radius: 30px;
+    justify-content: space-around;
+}
+
+.container-3 .chef{
+    width: 50%;
+    text-align: justify;
+    margin: 100px 80px ;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+}
+
+.container-3 img{
+    margin-right: 40px;
+}
+
+.container-3 h3{
+    color:#6bb99c;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container-3 h1{
+    margin-top: 10px;
+    font-size: 45px;
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 300;
+}
+.container-3 p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    text-align: justify;
+}
+
+/* Chef Section End */
+
+/* Customer Section Start */
+.customer-conatiner{
+    text-align: center;
+   
+}
+
+.customer-conatiner h3{
+    color: #f8763f;
+    font-size: 30px;
+    font-weight: 600;
+}
+.customer-conatiner h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.customer-1 {
+   justify-content: space-around;
+   display: flex;
+   margin: 70px 50px;
+   /* height: 50vh; */
+}
+
+.customer-1 img{
+    
+    height: 200px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+.customer-3{
+    margin-left: 470px;
+}
+.customer-3 img{
+    
+    height: 200px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+/* Customer Section End */
+
+/* Subscribe Section Start */
+.msg-form{
+    background-image: url(/images/bg-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-top: 70px;
+    height: 120vh;
+}
+
+.msg-form h3{
+    /* margin-top: 50px; */
+    color: #f8763f;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.msg-form h1{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 45px;
+    font-weight: 300;
+    text-transform:capitalize;
+    letter-spacing: 2px;
+}
+
+.msg-form form input{
+    text-align: justify;
+    width: 60%;
+    height: 50px;
+    background-color: #ccc1a3;
+    color: whitesmoke;
+    margin-top: 40px;
+    border-radius: 30px;
+   border-style:none;
+
+}
+
+/* Subscribe Section End */
+
+/* Footer section Start */
+footer{
+    background-color: #fa9d30;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+    height: 70vh;
+}
+
+footer h2{
+    
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-weight: 300;
+}
+
+
+footer li,
+footer li a{
+    line-height: 50px;
+    color: #12202f;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+footer .email{
+    width: 20%;
+    text-align: right;
+    margin-bottom: 90px;
+}
+
+.email input{
+    width: 100%;
+    height: 30px;
+    background-color: #fa9d30;
+    border-radius: 30px;
+    border-style: solid;
+    margin-top: 80px;
+    outline: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.email .icons{
+    display: flex;
+    margin: 20px 20px;
+}
+.icons li {
+    margin-left: 20px;
+}
+/* Footer section End */
